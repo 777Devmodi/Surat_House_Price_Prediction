@@ -32,7 +32,7 @@ The creation of a housing price prediction model can help a home seller or a rea
 # To run the GUI: 
     (In terminal) 
     > pipenv shell
-     > streamlit run new.py
+    > streamlit run new.py
   
   
     
