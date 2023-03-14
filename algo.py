@@ -40,7 +40,7 @@ def lr(HP,new_data):
 	lm.fit(X_train,y_train)
 	predictions = lm.predict(X_test)
 	
-	return lm.predict(new_data)
+	return abs(lm.predict(new_data))
 	
 def svma(HP,new_data):
 	# Applying the SVM Algorithm
